@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Agent brain
+.agent/
+
+# Rác hệ thống & Data
+*.md
+*.json
+.DS_Store
+Thumbs.db
