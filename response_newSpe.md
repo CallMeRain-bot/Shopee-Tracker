@@ -1,0 +1,1500 @@
+<!doctype html>
+<html class="h-100">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="canonical" href="https://tksieure.top/check_order/" />
+    <title>Check Đơn Hàng | TKSIEURE</title>
+    <meta name="description" content="Hệ thống bán clone mạng xã hội rẻ nhất thị trường" />
+    <meta name="keywords" content="hệ thống bán clone tiktok shopee
+
+bán clone tiktok shopee giá rẻ
+
+mua clone tiktok shopee
+
+clone tiktok shopee rẻ nhất thị trường
+
+web bán clone tự động
+
+tool clone tiktok shopee
+
+hệ thống bán tài khoản tiktok shopee
+
+auto clone tiktok shopee
+bán clone tiktok giá rẻ
+
+mua clone tiktok reg sẵn
+
+clone tiktok login được
+
+tài khoản tiktok số điện thoại ảo
+
+tiktok clone tương tác cao
+
+clone tiktok live được
+
+clone tiktok đăng video được
+
+mua clone tiktok verified
+
+clone tiktok reg việt
+
+clone tiktok new device
+bán clone shopee giá rẻ
+
+mua clone shopee reg sẵn
+
+tài khoản shopee xác minh sẵn
+
+clone shopee đăng bán được
+
+clone shopee chạy đơn
+
+clone shopee có đơn hàng
+
+clone shopee login được app
+
+clone shopee chống die
+
+clone shopee reg Việt Nam
+
+hệ thống clone shopee tự động
+hệ thống bán clone tự động 24/7
+
+bán clone chất lượng – giá rẻ nhất
+
+clone thật – dùng được lâu
+
+clone tiktok shopee chống checkpoint
+
+hệ thống bán clone uy tín
+
+clone tiktok shopee giao nhanh
+
+web bán clone auto nạp auto giao">
+    <meta name="copyright" content="CMSNT.CO" />
+    <meta name="author" content="CMSNT.CO" />
+    <meta property="og:url" content="https://tksieure.top/">
+    <meta property="og:site_name" content="https://tksieure.top/" />
+    <meta property="og:title" content="Check Đơn Hàng | TKSIEURE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://tksieure.top/assets/storage/images/image_JSY.png" />
+    <meta property="og:image:secure"
+        content="https://tksieure.top/assets/storage/images/image_JSY.png" />
+    <meta name="twitter:title" content="Check Đơn Hàng | TKSIEURE" />
+    <meta name="twitter:image"
+        content="https://tksieure.top/assets/storage/images/image_JSY.png" />
+    <meta name="twitter:image:alt" content="Check Đơn Hàng | TKSIEURE" />
+    <link rel="icon" type="image/png" href="https://tksieure.top/assets/storage/images/favicon_ED1.png" />
+    <style>
+    :root {
+        --primary: #007eba;
+    }
+    </style>
+    <style>
+    :root {
+        --primary1: #00a7b3;
+    }
+    </style>
+    <link rel="stylesheet" href="https://tksieure.top/public/client/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/fonts/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/fonts/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/vendor/venobox/venobox.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/vendor/slickslider/slick.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/vendor/niceselect/nice-select.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/css/main.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/css/user-auth.css">
+    <link rel="stylesheet" href="https://tksieure.top/public/client/css/index.css">
+
+    <link rel="stylesheet" href="https://tksieure.top/public/fontawesome/css/all.min.css">
+
+    <!-- sweetalert2-->
+    <link class="main-stylesheet" href="https://tksieure.top/public/sweetalert2/default.css" rel="stylesheet"
+        type="text/css">
+    <script src="https://tksieure.top/public/sweetalert2/sweetalert2.js"></script>
+    <!-- Cute Alert -->
+    <link class="main-stylesheet" href="https://tksieure.top/public/cute-alert/style.css" rel="stylesheet" type="text/css">
+    <script src="https://tksieure.top/public/cute-alert/cute-alert.js"></script>
+    <!-- Simple Notify CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
+    <!-- Simple Notify JS -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://tksieure.top/public/js/jquery-3.6.0.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+
+    <script src="https://tksieure.top/public/js/main.js"></script>
+            
+<link rel="stylesheet" href="https://tksieure.top/public/client/css/wallet.css">
+
+    <link rel="stylesheet" href="https://tksieure.top/mod/css/main.css?v=17">
+    <script src="https://tksieure.top/mod/js/main.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<script>
+function showMessage(message, type) {
+  const commonOptions = {
+    effect: 'fade',
+    speed: 300,
+    customClass: null,
+    customIcon: null,
+    showIcon: true,
+    showCloseButton: true,
+    autoclose: true,
+    autotimeout: 3000,
+    gap: 20,
+    distance: 20,
+    type: 'outline',
+    position: 'right top'
+  };
+
+  const options = {
+    success: {
+      status: 'success',
+      title: 'Thành công!',
+      text: message,
+    },
+    error: {
+      status: 'error',
+      title: 'Thất bại!',
+      text: message,
+    }
+  };
+  new Notify(Object.assign({}, commonOptions, options[type]));
+}
+
+</script>
+
+<style>
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;}
+html {
+  scroll-behavior: smooth;
+}
+
+.feature-content {
+    padding-left: 0px;
+    border-left: none;
+}
+.product-disable::before {
+    position: absolute;
+    content: "Hết hàng";
+    top: 89%;
+    left: 50%;
+    z-index: 2;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: var(--primary-tshadow);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    background: rgba(224, 152, 22, 0.9);
+}
+</style>
+
+
+ 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKSIEURE</title>
+    
+    <!-- Các file CSS/JS cần thiết - bạn thêm lại theo template của bạn -->
+    <link rel="stylesheet" href="https://tksieure.top/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tksieure.top/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://tksieure.top/assets/css/style.css">
+    <!-- Thêm các file css khác của template nếu có -->
+
+    <!-- Nếu dùng font awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER TOP -->
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <!-- Welcome Message -->
+                <div class="col-md-12 col-lg-5">
+                    <div class="header-top-welcome">
+                        <p>Chào mừng bạn đến với website TKSIEURE</p>
+                    </div>
+                </div>
+
+                <!-- Language & Currency Selector -->
+                <div class="col-md-5 col-lg-3">
+                    <div class="header-top-select">
+                        <!-- Language -->
+                        <div class="header-select">
+                            <i class="icofont-world"></i>
+                                                            <select class="select" id="changeLanguage" onchange="changeLanguage()">
+                                                                            <option value="1" selected>
+                                            Vietnamese                                        </option>
+                                                                            <option value="2" >
+                                            English                                        </option>
+                                                                            <option value="19" >
+                                            Thailand                                        </option>
+                                                                            <option value="20" >
+                                            Chinese                                        </option>
+                                                                    </select>
+                                                    </div>
+
+                        <!-- Currency -->
+                        <div class="header-select">
+                            <i class="icofont-money"></i>
+                            <select class="select" id="changeCurrency" onchange="changeCurrency()">
+                                                                    <option value="3" selected>
+                                        VND                                    </option>
+                                                                    <option value="4" >
+                                        USD                                    </option>
+                                                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-7 col-lg-4">
+                    <ul class="header-top-list">
+                        <li><a href="https://tksieure.top/client/policy">Chính sách</a></li>
+                        <li><a href="https://tksieure.top/client/faq">FAQ</a></li>
+                        <li><a href="https://tksieure.top/client/contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <header class="header-part">
+        <div class="container">
+            <div class="header-content">
+                <!-- Mobile Menu Toggle -->
+                <div class="header-media-group">
+                    <button class="header-user"><i class="fa-solid fa-bars"></i></button>
+                    <a href="https://tksieure.top/">
+                        <img src="https://tksieure.top/assets/storage/images/logo_light_T80.png" alt="logo">
+                    </a>
+                    <button class="header-src"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Logo -->
+                <a href="https://tksieure.top/" class="header-logo">
+                    <img src="https://tksieure.top/assets/storage/images/logo_light_T80.png" alt="logo">
+                </a>
+
+                <!-- Search Form -->
+                <form class="header-form" method="GET" action="https://tksieure.top/">
+                    <input type="hidden" name="action" value="home">
+                    <input type="text" name="keyword" value="" placeholder="Tìm kiếm sản phẩm...">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+
+                <!-- Header Widgets -->
+                <div class="header-widget-group">
+                    <!-- Orders -->
+                    <a href="https://tksieure.top/product-orders/" class="header-widget" title="Đơn hàng">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </a>
+
+                    <!-- Favorites -->
+                    <a href="https://tksieure.top/client/favorites" class="header-widget" title="Sản phẩm yêu thích">
+                        <i class="fas fa-heart"></i>
+                        <sup id="numFavorites">
+                            0                        </sup>
+                    </a>
+
+                    <!-- Recharge -->
+                    <button class="header-widget header-cart" title="Nạp tiền">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </button>
+
+                    <!-- User Profile / Login -->
+                                            <a href="https://tksieure.top/client/profile" class="header-widget" title="Profile">
+                            <img src="https://tksieure.top/assets/storage/images/avatar19U.png" alt="user">
+                            <span>
+                                <p class="text-uppercase">rainrain201104</p>
+                                <p style="color:blue;">0đ</p>
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="navbar-content">
+                        <ul class="navbar-list">
+                            <!-- Home -->
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="https://tksieure.top/client/home">
+                                    Trang chủ                                </a>
+                            </li>
+
+                            <!-- Shopee Service (DESKTOP) -->
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link dropdown-arrow" href="#" style="color:#ff6300 !important; font-weight:bold;">
+                                    Dịch vụ Shopee                                    <span style="font-size: 12px; background: red; color: #ffffff; margin-left: 10px; border-radius: 50%; padding: 3px;">MỚI</span>
+                                </a>
+                                <ul class="dropdown-position-list">
+                                    <!-- Trang tổng tool Shopee -->
+                                    <li>
+                                        <a href="https://tksieure.top/shopeetool/">
+                                            Trang tool Shopee                                            <span style="font-size:11px; color:red; font-weight:bold; margin-left:5px;">ALL</span>
+                                        </a>
+                                    </li>
+
+                                    <!-- Các tool con trên trang shopeetool/#... -->
+                                    <li><a href="https://tksieure.top/check_order">Check đơn hàng (Free)</a></li>
+                                    <li><a href="https://tksieure.top/check_sdt">Check SDT ZIN/ LIVE DIE</a></li>
+                                    <li><a href="https://tksieure.top/otpshopee/">Thuê SIM OTP Shopee  <span style="font-size:11px; color:red; font-weight:bold; margin-left:5px;">HOT</span>  </a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#voucher-save">Lưu mã freeship mới nhất</a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#user-live-die">Check user LIVE/DIE</a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#ship-check">Check vận chuyển</a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#email-add">Thêm email Shopee</a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#address-manage">Thêm / xoá địa chỉ</a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#spcst-from-spcf">Lấy SPC_ST bằng SPC_F</a></li>
+                                    <li><a href="https://tksieure.top/shopeetool/#tiktok-order-track">Check TT đơn (MVĐ TikTok)</a></li>
+
+                                    <!-- Thuê số riêng nếu bạn vẫn muốn giữ -->
+                                    
+                                </ul>
+                            </li>
+
+                            <!-- Products -->
+                            <li class="navbar-item dropdown-megamenu">
+                                <a class="navbar-link dropdown-arrow" href="#">Sản phẩm</a>
+                                <div class="megamenu">
+                                    <div class="container">
+                                        <div class="row row-cols-5">
+                                                                                            <div class="col-4">
+                                                    <div class="megamenu-wrap">
+                                                        <h5 class="megamenu-title">Gmail domain</h5>
+                                                        <ul class="megamenu-list">
+                                                                                                                    </ul>
+                                                    </div>
+                                                </div>
+                                                                                            <div class="col-4">
+                                                    <div class="megamenu-wrap">
+                                                        <h5 class="megamenu-title">Shopee</h5>
+                                                        <ul class="megamenu-list">
+                                                                                                                            <li>
+                                                                    <a href="https://tksieure.top/category/shopee-hang-chuan">
+                                                                        <img width="25px" src="https://tksieure.top/assets/storage/images/category4CXU.png">
+                                                                        Shopee hàng chuẩn                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://tksieure.top/category/sp-reg-new-chua-mail">
+                                                                        <img width="25px" src="https://tksieure.top/assets/storage/images/categoryEB7O.png">
+                                                                        Sp reg new chưa mail                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                </div>
+                                                                                            <div class="col-4">
+                                                    <div class="megamenu-wrap">
+                                                        <h5 class="megamenu-title">Tiktok</h5>
+                                                        <ul class="megamenu-list">
+                                                                                                                            <li>
+                                                                    <a href="https://tksieure.top/category/clone-san-ma-giam-gia">
+                                                                        <img width="25px" src="https://tksieure.top/assets/storage/images/iconRK6G.png">
+                                                                        Clone sẵn mã giảm giá                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Recharge -->
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link dropdown-arrow" href="#">Nạp tiền</a>
+                                <ul class="dropdown-position-list">
+                                                                            <li><a href="https://tksieure.top/?action=recharge-bank"><img width="20px" src="https://tksieure.top/assets/img/icon-bank.svg">Ngân hàng</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                            </li>
+
+                            <!-- History -->
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link dropdown-arrow" href="#">Lịch sử</a>
+                                <ul class="dropdown-position-list">
+                                    <li><a href="https://tksieure.top/product-orders/">Lịch sử đơn hàng</a></li>
+                                    <li><a href="https://tksieure.top/client/logs">Nhật ký hoạt động</a></li>
+                                    <li><a href="https://tksieure.top/client/transactions">Biến động số dư</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Affiliate -->
+                                                            <li class="navbar-item dropdown">
+                                    <a class="navbar-link dropdown-arrow" href="#">Affiliate Program</a>
+                                    <ul class="dropdown-position-list">
+                                        <li><a href="https://tksieure.top/?action=affiliates">Thống kê</a></li>
+                                        <li><a href="https://tksieure.top/?action=affiliate-history">Lịch sử</a></li>
+                                        <li><a href="https://tksieure.top/?action=affiliate-withdraw">Rút tiền</a></li>
+                                    </ul>
+                                </li>
+                            
+                            <!-- Blog -->
+                            
+                            <!-- API Documentation -->
+                            
+                            <!-- Admin Panel -->
+                                                    </ul>
+
+                        <!-- Contact Info -->
+                        <div class="navbar-info-group">
+                            <div class="navbar-info">
+                                <i class="fa-solid fa-phone"></i>
+                                <p><small>Hotline</small><span>0389437369</span></p>
+                            </div>
+                            <div class="navbar-info">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p><small>Email</small><span>0389437369@domain.com</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CATEGORY SIDEBAR (Mobile) -->
+    <aside class="category-sidebar">
+        <div class="category-header">
+            <h4 class="category-title"><i class="fas fa-align-left"></i><span>Sản phẩm</span></h4>
+            <button class="category-close"><i class="icofont-close"></i></button>
+        </div>
+        <ul class="category-list">
+                            <li class="category-item">
+                    <a class="category-link dropdown-link" href="#">
+                        <img src="https://tksieure.top/assets/storage/images/categoryCAH9.png" style="margin-right: 10px;" width="30px">
+                        Tiktok                    </a>
+                    <ul class="dropdown-list">
+                                                    <li><a href="https://tksieure.top/category/clone-san-ma-giam-gia">Clone sẵn mã giảm giá</a></li>
+                                            </ul>
+                </li>
+                            <li class="category-item">
+                    <a class="category-link dropdown-link" href="#">
+                        <img src="https://tksieure.top/assets/storage/images/iconTBNJ.png" style="margin-right: 10px;" width="30px">
+                        Shopee                    </a>
+                    <ul class="dropdown-list">
+                                                    <li><a href="https://tksieure.top/category/shopee-hang-chuan">Shopee hàng chuẩn</a></li>
+                                                    <li><a href="https://tksieure.top/category/sp-reg-new-chua-mail">Sp reg new chưa mail</a></li>
+                                            </ul>
+                </li>
+                            <li class="category-item">
+                    <a class="category-link dropdown-link" href="#">
+                        <img src="https://tksieure.top/assets/storage/images/icon2LHE.png" style="margin-right: 10px;" width="30px">
+                        Gmail domain                    </a>
+                    <ul class="dropdown-list">
+                                            </ul>
+                </li>
+                    </ul>
+    </aside>
+
+    <!-- RECHARGE SIDEBAR (Mobile) -->
+    <aside class="cart-sidebar">
+        <div class="cart-header">
+            <div class="cart-total">
+                <i class="fa-solid fa-building-columns"></i>
+                <span>Chọn phương thức nạp tiền</span>
+            </div>
+            <button class="cart-close"><i class="icofont-close"></i></button>
+        </div>
+        <ul class="category-list">
+                            <li class="category-item"><a class="category-link" href="https://tksieure.top/?action=recharge-bank"><img style="margin-right: 10px;" width="30px" src="https://tksieure.top/assets/img/icon-bank.svg">Ngân hàng</a></li>
+                                                                                                                                </ul>
+    </aside>
+
+    <!-- NAVIGATION SIDEBAR (Mobile) -->
+    <aside class="nav-sidebar">
+        <div class="nav-header">
+            <a href="https://tksieure.top/"><img src="https://tksieure.top/assets/storage/images/logo_light_T80.png" alt="logo"></a>
+            <button class="nav-close"><i class="icofont-close"></i></button>
+        </div>
+        <div class="nav-content">
+            <!-- Login Button -->
+            <div class="nav-btn">
+                                    <a href="https://tksieure.top/client/profile" class="btn btn-inline">
+                        <i class="fa fa-user"></i> <span>rainrain201104</span>
+                    </a>
+                            </div>
+
+            <!-- Wallet Info -->
+            <div class="nav-select-group">
+                <p>Số dư của tôi: <strong class="text-wallet">0đ</strong></p>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-list">
+                <!-- Home -->
+                <li><a class="nav-link" href="https://tksieure.top/client/home"><i class="icofont-home"></i>Trang chủ</a></li>
+
+                <!-- Shopee Service (MOBILE) -->
+                <li>
+                    <a class="nav-link dropdown-link" href="#" style="color:#ff6300 !important; font-weight:bold;">
+                        <i class="fa-solid fa-bag-shopping"></i>Dịch vụ shopee                    </a>
+                    <ul class="dropdown-list">
+                        <li><a href="https://tksieure.top/check_order/">Trang tool Shopee</a></li>
+                        <li><a href="https://tksieure.top/check_order">Check đơn hàng (Free)</a></li>
+                        <li><a href="https://tksieure.top/check_sdt">Check SDT ZIN/LIVE DIE</a></li>
+                        <li><a href="https://tksieure.top/otpshopee/#otp-sim">Thuê SIM OTP Shopee</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#voucher-save">Lưu mã freeship mới nhất</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#user-live-die">Check user LIVE/DIE</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#ship-check">Check vận chuyển</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#email-add">Thêm email Shopee</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#address-manage">Thêm / xoá địa chỉ</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#spcst-from-spcf">Lấy SPC_ST bằng SPC_F</a></li>
+                        <li><a href="https://tksieure.top/shopeetool/#tiktok-order-track">Check TT đơn (MVĐ TikTok)</a></li>
+                        <li><a href="https://tksieure.top/otpshopee/">Thuê số riêng</a></li>
+                    </ul>
+                </li>
+
+                <!-- Products -->
+                <li>
+                    <a class="nav-link dropdown-link" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>Sản phẩm                    </a>
+                    <ul class="dropdown-list">
+                                                    <li>
+                                <a href="https://tksieure.top/category/clone-san-ma-giam-gia">
+                                    <img width="25px" class="me-2 active" src="https://tksieure.top/assets/storage/images/iconRK6G.png">
+                                    Clone sẵn mã giảm giá                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://tksieure.top/category/shopee-hang-chuan">
+                                    <img width="25px" class="me-2 active" src="https://tksieure.top/assets/storage/images/category4CXU.png">
+                                    Shopee hàng chuẩn                                </a>
+                            </li>
+                                                    <li>
+                                <a href="https://tksieure.top/category/sp-reg-new-chua-mail">
+                                    <img width="25px" class="me-2 active" src="https://tksieure.top/assets/storage/images/categoryEB7O.png">
+                                    Sp reg new chưa mail                                </a>
+                            </li>
+                                            </ul>
+                </li>
+
+                <!-- Recharge -->
+                <li>
+                    <a class="nav-link dropdown-link" href="#">
+                        <i class="fa-solid fa-building-columns"></i>Nạp tiền                    </a>
+                    <ul class="dropdown-list">
+                                                    <li><a href="https://tksieure.top/?action=recharge-bank"><img width="20px" class="me-2" src="https://tksieure.top/assets/img/icon-bank.svg">Ngân hàng</a></li>
+                                                                                                                                                                                                                                                                    </ul>
+                </li>
+
+                <!-- History -->
+                <li>
+                    <a class="nav-link dropdown-link" href="#">
+                        <i class="fa-solid fa-clock-rotate-left"></i>Lịch sử                    </a>
+                    <ul class="dropdown-list">
+                        <li><a href="https://tksieure.top/product-orders/">Lịch sử đơn hàng</a></li>
+                        <li><a href="https://tksieure.top/client/logs">Nhật ký hoạt động</a></li>
+                        <li><a href="https://tksieure.top/client/transactions">Biến động số dư</a></li>
+                    </ul>
+                </li>
+
+                <!-- Affiliate -->
+                                    <li>
+                        <a class="nav-link dropdown-link" href="#">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>Affiliate Program                        </a>
+                        <ul class="dropdown-list">
+                            <li><a href="https://tksieure.top/?action=affiliates">Thống kê</a></li>
+                            <li><a href="https://tksieure.top/?action=affiliate-history">Lịch sử</a></li>
+                            <li><a href="https://tksieure.top/?action=affiliate-withdraw">Rút tiền</a></li>
+                        </ul>
+                    </li>
+                
+                <!-- Blog -->
+                
+                <!-- API -->
+                
+                <!-- Admin -->
+                
+                <!-- Logout -->
+                <li><a class="nav-link" href="https://tksieure.top/client/logout"><i class="icofont-logout"></i>Đăng Xuất</a></li>
+            </ul>
+
+            <!-- Contact Info -->
+            <div class="nav-info-group">
+                <div class="nav-info">
+                    <i class="icofont-ui-touch-phone"></i>
+                    <p><span>0389437369</span></p>
+                </div>
+                <div class="nav-info">
+                    <i class="icofont-ui-email"></i>
+                    <p><span>0389437369@domain.com</span></p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MOBILE BOTTOM MENU -->
+    <div class="mobile-menu">
+        <a href="https://tksieure.top/client/home" title="Trang chủ" class="">
+            <i class="fas fa-home"></i><span>Trang chủ</span>
+        </a>
+        <button type="button" class="header-user">
+            <i style="color:#ff6300" class="fa-solid fa-bag-shopping"></i>
+            <span style="color:#ff6300; font-weight: bold;">Dịch vụ Shopee</span>
+        </button>
+        <button class="cate-btn" title="Sản phẩm">
+            <i class="fas fa-list"></i><span>Sản phẩm</span>
+        </button>
+        <button class="cart-btn " title="Nạp tiền">
+            <i class="fa-solid fa-building-columns"></i><span>Nạp tiền</span>
+        </button>
+        <a href="https://tksieure.top/product-orders" class="" title="Đơn hàng">
+            <i class="fa-solid fa-cart-shopping"></i><span>Đơn hàng</span>
+        </a>
+        <a href="https://tksieure.top/client/profile" title="Profile" class="">
+            <i class="fa-solid fa-user"></i><span>Thông tin</span>
+        </a>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        function changeLanguage() {
+            var id = document.getElementById("changeLanguage").value;
+            $.ajax({
+                url: "https://tksieure.top/ajaxs/client/update.php",
+                method: "POST",
+                dataType: "JSON",
+                data: {
+                    action: 'changeLanguage',
+                    id: id
+                },
+                success: function(respone) {
+                    if (respone.status == 'success') {
+                        location.reload();
+                    } else {
+                        cuteAlert({
+                            type: "error",
+                            title: "Error",
+                            message: respone.msg,
+                            buttonText: "Okay"
+                        });
+                    }
+                }
+            });
+        }
+
+        function changeCurrency() {
+            var id = document.getElementById("changeCurrency").value;
+            $.ajax({
+                url: "https://tksieure.top/ajaxs/client/update.php",
+                method: "POST",
+                dataType: "JSON",
+                data: {
+                    action: 'changeCurrency',
+                    id: id
+                },
+                success: function(respone) {
+                    if (respone.status == 'success') {
+                        location.reload();
+                    } else {
+                        cuteAlert({
+                            type: "error",
+                            title: "Error",
+                            message: respone.msg,
+                            buttonText: "Okay"
+                        });
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Đơn Hàng Shopee | TKSIEURE</title>
+
+<style>
+/* ==================== SHOPEE MULTI TOOL - STYLE GIỐNG CMSNT.CO 2025 ==================== */
+
+/* Tiêu đề chính giống CMSNT */
+.home-heading  {
+    color: #f1f1f1;
+    background: #eb542a linear-gradient(135deg, var(--primary) 0, var(--primary1) 100%) !important;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px 0px rgb(0 0 0 / 37%);
+}
+
+.home-heading h3 {
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Form */
+.form-section {
+    display: block;
+    animation: fadeInUp 0.6s ease;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+label {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 14px;
+    resize: vertical;
+    transition: all 0.3s;
+    background: #f9f9f9;
+    font-family: 'Courier New', monospace;
+    min-height: 100px;
+}
+
+/* Nút bấm */
+.btn {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #ee4CAF50, #45a049);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+    margin-top: 15px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(76, 175, 80, 0.5);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Alert giống CMSNT */
+.alert {
+    padding: 16px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+
+.alert-info {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #1565c0;
+    border-left: 5px solid #2196F3;
+}
+
+.alert-error {
+    background: linear-gradient(135deg, #ffebee, #ffcdd2);
+    color: #c62828;
+    border-left: 5px solid #f44336;
+}
+
+/* Kết quả */
+.success-box {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.success-box h3 {
+    color: #2e7d32;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-dl {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 3px 10px rgba(76,175,80,0.3);
+}
+
+.btn-dl:hover {
+    background: #388e3c;
+    transform: translateY(-2px);
+}
+
+/* Bảng dữ liệu giống CMSNT */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    font-size: 14px;
+}
+
+.data-table th {
+    background: linear-gradient(135deg, #ee4d2d, #ff6b35);
+    color: white;
+    padding: 12px 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.data-table td {
+    padding: 10px 8px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+.data-table tr:hover {
+    background: #fff8f0;
+}
+
+.data-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Danh sách sản phẩm */
+.prod-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.prod-list li {
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 220px;
+    overflow: hidden;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.prod-list li > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.prod-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex-shrink: 0;
+}
+
+.tracking {
+    font-weight: bold;
+    color: #d35400;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+}
+
+.tracking-empty {
+    color: #999;
+    font-style: italic;
+}
+
+/* Guide dropdown */
+.guide-box {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.guide-details summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-weight: 700;
+    color: #333;
+    font-size: 14px;
+    user-select: none;
+    background: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 10px 12px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.guide-details summary:hover {
+    background: #fff;
+    border-color: #ee4d2d;
+}
+
+.guide-steps {
+    margin: 12px 0 0 18px;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.guide-steps a {
+    color: #1565c0;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.guide-steps a:hover {
+    text-decoration: underline;
+}
+
+.guide-details code {
+    background: #fff3e0;
+    color: #e65100;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+}
+
+.guide-img {
+    display: block;
+    margin-top: 12px;
+}
+
+.guide-img img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.guide-note {
+    margin-top: 10px;
+    color: #666;
+    font-size: 13px;
+    background: #f9f9f9;
+    border: 1px dashed #e0e0e0;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+/* Input proxy */
+input[type="text"] {
+    transition: all 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #ee4d2d;
+    background: #fff;
+}
+
+/* Copy button */
+.copy-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 6px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 5px;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.copy-btn:hover {
+    background: #ee4d2d;
+    color: white;
+    transform: scale(1.1);
+}
+
+.copy-btn:active {
+    transform: scale(0.95);
+}
+
+/* Address box */
+.address-box {
+    text-align: left;
+    min-width: 180px;
+}
+
+.addr-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.addr-phone {
+    color: #2196F3;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.addr-address {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* Price box */
+.price-box {
+    text-align: left;
+    min-width: 150px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 3px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.price-row:last-child {
+    border-bottom: none;
+}
+
+.price-row.price-total {
+    margin-top: 8px;
+    padding-top: 10px;
+    border-top: 2px solid #ee4d2d;
+}
+
+.price-label {
+    color: #666;
+    font-size: 13px;
+}
+
+.price-value {
+    color: #333;
+    font-weight: 600;
+}
+
+.price-value-total {
+    color: #ee4d2d;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Badges */
+.time-badge {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.shop-badge {
+    background: #fff3e0;
+    color: #e65100;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 600;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.status-badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.carrier-text {
+    color: #666;
+    font-size: 11px;
+    display: block;
+    margin-top: 3px;
+}
+
+.payment-badge {
+    background: #f3e5f5;
+    color: #7b1fa2;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.order-id {
+    font-family: 'Courier New', monospace;
+    color: #666;
+    font-size: 13px;
+}
+
+/* Toast notification */
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 10000;
+    animation: slideIn 0.3s ease;
+    font-weight: 500;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container { padding: 0 10px; margin: 15px auto; }
+    .home-heading h3 { font-size: 20px; padding: 14px 20px; }
+    form { padding: 20px; }
+    .data-table { font-size: 13px; }
+    .prod-list li { font-size: 12px; max-width: 150px; }
+    .prod-list img { width: 35px; height: 35px; }
+    .success-box h3 { font-size: 18px; flex-direction: column; gap: 10px; text-align: center; }
+}
+</style>
+  <script>
+    // Hàm Copy to Clipboard với Toast notification
+    function copyToClipboard(text) {
+      // Tạo textarea tạm
+      var textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      
+      try {
+        document.execCommand('copy');
+        showToast('✅ Đã copy: ' + text);
+      } catch (err) {
+        showToast('❌ Lỗi copy!');
+      }
+      
+      document.body.removeChild(textarea);
+    }
+    
+    // Hàm hiển thị Toast notification
+    function showToast(message) {
+      // Xóa toast cũ nếu có
+      var oldToast = document.querySelector('.toast');
+      if (oldToast) {
+        oldToast.remove();
+      }
+      
+      // Tạo toast mới
+      var toast = document.createElement('div');
+      toast.className = 'toast';
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      
+      // Tự động ẩn sau 3 giây
+      setTimeout(function() {
+        toast.style.animation = 'slideIn 0.3s ease reverse';
+        setTimeout(function() {
+          toast.remove();
+        }, 300);
+      }, 3000);
+    }
+    
+    // Hàm Download Excel/CSV
+    function exportTableToCSV(filename) {
+      var csv = [];
+      var tables = document.querySelectorAll('.data-table');
+      
+      tables.forEach(function(table) {
+        var rows = table.querySelectorAll("tr");
+        for (var i = 0; i < rows.length; i++) {
+          var row = [],
+            cols = rows[i].querySelectorAll("td, th");
+          for (var j = 0; j < cols.length; j++) {
+            var txt = cols[j].innerText;
+            // Lấy dữ liệu ẩn (nếu có) để xuất cho đẹp
+            if (cols[j].querySelector("span[style='display:none']")) {
+              txt = cols[j].querySelector("span[style='display:none']").innerText;
+            }
+            row.push('"' + txt.replace(/"/g, '""').replace(/\n/g, ' ') + '"');
+          }
+          csv.push(row.join(","));
+        }
+      });
+      
+      var b = new Blob(["\uFEFF" + csv.join("\n")], {
+        type: "text/csv;charset=utf-8;"
+      });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(b);
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      showToast('✅ Đã tải file: ' + filename);
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <h3 class="home-heading mb-3">📦 Check Đơn Hàng Shopee</h3>
+
+    <div class="guide-box">
+      <details class="guide-details">
+        <summary>
+          <span>Hướng dẫn lấy cookie <code>SPC_ST</code></span>
+          <span style="font-weight:800;">▾</span>
+        </summary>
+        <ol class="guide-steps">
+          <li>Đăng nhập Shopee trên trình duyệt PC (Chrome).</li>
+          <li>Tải tiện ích <a href="https://chromewebstore.google.com/detail/cookie-editor/ookdjilphngeeeghgngjabigmpepanpl" target="_blank" rel="noopener">Cookie-Editor</a>.</li>
+          <li>Mở tiện ích → tìm <code>SPC_ST</code> → copy <b>value</b> như hình bên dưới.</li>
+        </ol>
+        <a class="guide-img" href="https://ibb.co/Q3rkBXrf" target="_blank" rel="noopener">
+          <img src="https://i.ibb.co/hJDc5CDy/811d66356339ed67b428.jpg" alt="Hướng dẫn lấy cookie SPC_ST">
+        </a>
+        <div class="guide-note">
+          Mẹo: mỗi dòng nhập 1 cookie (có thể dán dạng <code>SPC_ST=...</code> hoặc chỉ dán value).
+        </div>
+      </details>
+    </div>
+
+    <form method="POST" action="">
+        <div class="form-section">
+            <label for="cookie">🍪 Nhập Cookie (SPC_ST) - Tối đa 5 dòng, mỗi dòng 1 cookie:</label>
+            <textarea name="cookie" id="cookie" rows="5" placeholder="Dán cookie dòng 1&#10;Dán cookie dòng 2&#10;Dán cookie dòng 3&#10;Dán cookie dòng 4&#10;Dán cookie dòng 5">SPC_ST=.TnczRWxDQUZUTE5pekI4MJY70TGRh0YncKLLEHourrtfH3hkNCYgTco3GDDkKct+uW5Ir6hA2Se1hzmzHN4g2grQGg4VxsrbCaam94kDXWZeyikZkdD8xsPIdMOrMaVh0Hodwik7KMd1QpZCU9dfnXqy9lj6D67+Y4jzjxmcxblQy12t5qw37+HrKwggSbS0YSXXDA7XzEvxisJ+qmJr6+IRwLeqJ4AH0Pt7e9O2elHTr1wkWkvH6ikM+DsQpAj7B675JrbFRKRMxOaqTJOFdA==</textarea>
+            
+            <label for="proxy" style="margin-top: 15px;">🌐 Proxy (Để trống = dùng proxy mặc định):</label>
+            <input type="text" name="proxy" id="proxy" placeholder="ip:port hoặc ip:port:user:pass" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 14px; font-family: 'Courier New', monospace;" value="">
+            
+            <button type="submit" class="home-heading" style="display: flex; justify-content: center; margin: auto; margin-top: 15px;">🔍 Lấy Đơn Hàng</button>
+        </div>
+    </form>
+
+    <div id="result">
+      <hr><div class='success-box'><h3>📋 Kết quả check 1 cookie:</h3><div style='margin: 20px 0; padding: 15px; border: 2px solid #ddd; border-radius: 8px; background: #f9f9f9;'><h4 style='color: #ee4d2d; margin-top: 0;'>🍪 Cookie #1</h4><div class='alert alert-info'>✅ Tìm thấy 1 đơn hàng</div><button class='btn-dl' onclick="exportTableToCSV('orders_cookie_1.csv')" style='margin-top: 10px;'>⬇️ Tải Excel</button><div style='overflow-x:auto; margin-top: 15px;'><table class='data-table'><thead><tr><th>Order</th><th>Thời Gian</th><th>Shop</th><th>Vận Đơn</th><th>Trạng Thái</th><th>Người Nhận</th><th>Sản Phẩm</th><th>Giá</th><th>Thanh Toán</th></tr></thead><tbody><tr>
+                              <td style='min-width: 120px;'><div style='text-align: left;'><div style='margin-bottom: 5px;'><span class='order-id>'224004746255220</span></div><div><span class='copy-btn' onclick='copyToClipboard("26020504DEC6UM")' title='Copy Order SN'>📋</span> <span style='font-family: monospace; font-size: 12px;'>26020504DEC6UM</span></div></div></td>
+                              <td style='min-width: 140px;'><div class='time-badge'>05/02/2026 22:32:27</div></td>
+                              <td style='min-width: 150px;'><div class='shop-badge'>Aimili mask shop .vn</div></td>
+                              <td style='min-width: 200px;'><div style='text-align: left;'><div style='margin-bottom: 5px;'><span class='copy-btn' onclick='copyToClipboard("VN262287118779V")' title='Copy mã vận đơn'>📋</span> <span class='tracking'>VN262287118779V</span></div></div></td>
+                              <td style='min-width: 150px;'><div class='status-badge'>Đơn hàng đã được nhập khẩu vào Việt Nam</div><small class='carrier-text'>N/A</small></td>
+                              <td style='min-width: 200px;'><div class='address-box'><div class='addr-name'><strong>Minhh Vũ</strong></div><div class='addr-phone'><span class='copy-btn' onclick='copyToClipboard("84564462378")' title='Copy SĐT'>📱</span> 84564462378</div><div class='addr-address'><small>Tạp Hóa Nhâm Thanh, Xóm 2, Xã Yên Mỹ, Huyện Thanh Trì, Hà Nội</small></div></div><span style='display:none'>Minhh Vũ - 84564462378</span></td>
+                              <td style='min-width: 250px;'><ul class='prod-list'><li><img src='https://cf.shopee.vn/file/cn-11134207-7qukw-lkj6j2v5xw3ac8'><div><span>Khẩu Trang cotton 3 Lớp Giữ Ấm Thoáng Khí Chống Bụi Kháng Khuẩn Có Thể Giặt Và Tái Sử Dụng Cho Nam Và Nữ <small>(Đen)</small></span><br><small style='color: #ee4d2d; font-weight: 600;'>82.080 ₫ x 2</small></div></li></ul><span style='display:none'>Khẩu Trang cotton 3 Lớp Giữ Ấm Thoáng Khí Chống Bụi Kháng Khuẩn Có Thể Giặt Và Tái Sử Dụng Cho Nam Và Nữ (82.080 ₫) x 2; </span></td>
+                              <td style='min-width: 150px;'><div class='price-box'><div class='price-row'><span class='price-label'>Tổng tiền hàng:</span> <span class='price-value'>17.080 ₫</span></div><div class='price-row'><span class='price-label'>Phí vận chuyển:</span> <span class='price-value'>15.000 ₫</span></div><div class='price-row price-total'><span class='price-label'>Tổng thanh toán:</span> <span class='price-value-total'>17.080 ₫</span></div></div><span style='display:none'>17.080 ₫</span></td>
+                              <td style='min-width: 120px;'><div class='payment-badge'>Thanh toán khi nhận hàng</div></td>
+                          </tr></tbody></table></div></div></div>    </div>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+<style>
+.giuseart-pc-contact-bar{
+left: 9px;
+bottom: 59px;
+position: fixed;
+z-index: 998;
+margin-bottom:0
+}
+.giuseart-pc-contact-bar li{
+width: 44px;
+height: 46px;
+overflow: hidden;
+ margin-bottom: 0;
+list-style: none;
+}
+.giuseart-pc-contact-bar li.facebook{
+margin-bottom: 8px;
+background: url(https://tksieure.top/mod/img/icon-mess.webp);
+background-repeat: no-repeat;
+}
+.giuseart-pc-contact-bar li.zalo{
+background: url(https://tksieure.top/mod/img/icon-chat-zalo.webp);    background-repeat: no-repeat;
+}
+.giuseart-pc-contact-bar li a{
+display: block;
+width: 44px;
+height: 44px;
+}
+
+</style>
+<ul class="giuseart-pc-contact-bar">
+<li class="facebook">
+<a href="https://zalo.me/g/zctdvo275" target="_blank" rel="nofollow"></a>
+</li>
+<li class="zalo">
+<a href="https://zalo.me/g/zctdvo275" target="_blank" rel="nofollow"></a>
+</li>
+</ul>
+
+
+<footer class="footer-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xl-4">
+                <div class="footer-widget">
+                    <a class="footer-logo" href="https://tksieure.top/">
+                        <img src="https://tksieure.top/assets/storage/images/logo_light_T80.png" alt="logo"></a>
+                    <p class="footer-desc">
+                        Hệ thống bán clone mạng xã hội rẻ nhất thị trường</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+                <div class="footer-widget contact">
+                    <h3 class="footer-title">Liên hệ</h3>
+                    <ul class="footer-contact">
+                        <li><i class="icofont-ui-email"></i>
+                            <p>0389437369@domain.com</p>
+                        </li>
+                        <li><i class="icofont-ui-touch-phone"></i>
+                            <p>0389437369</p>
+                        </li>
+                        <li><i class="icofont-location-pin"></i>
+                            <p>1Hd- 50, 010 Avenue, NY 90001 United States</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+                <div class="footer-widget">
+                    <h3 class="footer-title">Liên kết</h3>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="https://tksieure.top/client/policy">Chính sách</a></li>
+                            <li><a href="https://tksieure.top/client/faq">Câu hỏi thường gặp</a></li>
+                            <li><a href="https://tksieure.top/client/contact">Liên hệ chúng tôi</a></li>
+                            <li><a href="https://tksieure.top/client/document-api">Tài liệu API</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-bottom">
+                    <p class="footer-copytext">© All Copyrights Reserved by <a href="#">TKSIEURE</a>
+                        | Software By <a href="https://www.cmsnt.co/">CMSNT.CO</a></p>
+                    <div class="footer-card">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://tksieure.top/public/client/vendor/bootstrap/jquery-1.12.4.min.js"></script>
+<script src="https://tksieure.top/public/client/vendor/bootstrap/popper.min.js"></script>
+<script src="https://tksieure.top/public/client/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="https://tksieure.top/public/client/vendor/countdown/countdown.min.js"></script>
+<script src="https://tksieure.top/public/client/vendor/niceselect/nice-select.min.js"></script>
+<script src="https://tksieure.top/public/client/vendor/slickslider/slick.min.js"></script>
+<script src="https://tksieure.top/public/client/vendor/venobox/venobox.min.js"></script>
+<script src="https://tksieure.top/public/client/js/nice-select.js"></script>
+<script src="https://tksieure.top/public/client/js/countdown.js"></script>
+<script src="https://tksieure.top/public/client/js/accordion.js"></script>
+<script src="https://tksieure.top/public/client/js/venobox.js"></script>
+<script src="https://tksieure.top/public/client/js/slick.js"></script>
+<script src="https://tksieure.top/public/client/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+flatpickr("#example-flatpickr-range");
+</script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+
+</body>
+
+</html><script>
+Dashmix.helpersOnLoad(['js-flatpickr', 'jq-datepicker', 'jq-maxlength', 'jq-select2', 'jq-rangeslider', 'jq-masked-inputs', 'jq-pw-strength']);
+</script>
+
