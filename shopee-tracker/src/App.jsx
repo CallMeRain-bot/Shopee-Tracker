@@ -630,6 +630,7 @@ function App() {
                                                 <thead>
                                                     <tr>
                                                         <th>ID</th>
+                                                        <th>Product</th>
                                                         <th>Cookie Preview</th>
                                                         <th>Status</th>
                                                         <th>Created</th>
@@ -637,63 +638,88 @@ function App() {
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    {cookies.map((c) => (
-                                                        <tr key={c.id}>
-                                                            <td className="order-id">#{c.id}</td>
-                                                            <td
-                                                                style={{ fontFamily: 'monospace', fontSize: '0.75rem', cursor: 'pointer' }}
-                                                                title="Click to copy full cookie"
-                                                                onClick={() => {
-                                                                    navigator.clipboard.writeText(c.cookie);
-                                                                    alert(`Đã copy cookie #${c.id}!`);
-                                                                }}
-                                                                className="cookie-preview-cell"
-                                                            >
-                                                                {c.cookie?.substring(0, 40)}...
-                                                            </td>
-                                                            <td>
-                                                                <span className={`order-status ${c.status}`}>{c.status}</span>
-                                                            </td>
-                                                            <td className="order-date">{formatDate(c.created_at)}</td>
-                                                            <td>
-                                                                <div className="cookie-actions">
-                                                                    <button
-                                                                        className="btn btn-ghost"
-                                                                        onClick={() => {
-                                                                            navigator.clipboard.writeText(c.cookie);
-                                                                            alert('Cookie đã được copy vào clipboard!');
-                                                                        }}
-                                                                        title="Copy full cookie"
-                                                                    >
-                                                                        <span className="material-symbols-outlined">content_copy</span>
-                                                                    </button>
-                                                                    {c.status === 'pending' && (
+                                                    {cookies.map((c) => {
+                                                        const cookieOrders = orders.filter(o => o.cookie_id === c.id);
+                                                        const firstOrder = cookieOrders[0];
+
+                                                        return (
+                                                            <tr key={c.id}>
+                                                                <td className="order-id">#{c.id}</td>
+                                                                <td className="cookie-product-cell">
+                                                                    <div className="cookie-product-info">
+                                                                        <div className="cookie-product-img">
+                                                                            {firstOrder && firstOrder.image ? (
+                                                                                <img
+                                                                                    src={getShopeeImageUrl(firstOrder.image)}
+                                                                                    alt="Product"
+                                                                                    onError={(e) => { e.target.style.display = 'none'; }}
+                                                                                />
+                                                                            ) : (
+                                                                                <span className="placeholder">📦</span>
+                                                                            )}
+                                                                        </div>
+                                                                        {cookieOrders.length > 1 && (
+                                                                            <span className="product-count-badge" title={`${cookieOrders.length} đơn hàng`}>
+                                                                                {cookieOrders.length}
+                                                                            </span>
+                                                                        )}
+                                                                    </div>
+                                                                </td>
+                                                                <td
+                                                                    style={{ fontFamily: 'monospace', fontSize: '0.75rem', cursor: 'pointer' }}
+                                                                    title="Click to copy full cookie"
+                                                                    onClick={() => {
+                                                                        navigator.clipboard.writeText(c.cookie);
+                                                                        alert(`Đã copy cookie #${c.id}!`);
+                                                                    }}
+                                                                    className="cookie-preview-cell"
+                                                                >
+                                                                    {c.cookie?.substring(0, 30)}...
+                                                                </td>
+                                                                <td>
+                                                                    <span className={`order-status ${c.status}`}>{c.status}</span>
+                                                                </td>
+                                                                <td className="order-date">{formatDate(c.created_at)}</td>
+                                                                <td>
+                                                                    <div className="cookie-actions">
                                                                         <button
-                                                                            className="btn btn-primary btn-sm"
-                                                                            onClick={() => handleCheckCookie(c.id)}
-                                                                            title="Check cookie"
+                                                                            className="btn btn-ghost"
+                                                                            onClick={() => {
+                                                                                navigator.clipboard.writeText(c.cookie);
+                                                                                alert('Cookie đã được copy vào clipboard!');
+                                                                            }}
+                                                                            title="Copy full cookie"
                                                                         >
-                                                                            <span className="material-symbols-outlined">play_arrow</span>
+                                                                            <span className="material-symbols-outlined">content_copy</span>
                                                                         </button>
-                                                                    )}
-                                                                    <button
-                                                                        className="btn btn-ghost"
-                                                                        onClick={() => handleEditCookie(c.id, c.cookie)}
-                                                                        title="Sửa cookie"
-                                                                    >
-                                                                        <span className="material-symbols-outlined">edit</span>
-                                                                    </button>
-                                                                    <button
-                                                                        className="btn btn-ghost"
-                                                                        onClick={() => handleDeleteCookie(c.id)}
-                                                                        title="Delete"
-                                                                    >
-                                                                        <span className="material-symbols-outlined">delete</span>
-                                                                    </button>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    ))}
+                                                                        {c.status === 'pending' && (
+                                                                            <button
+                                                                                className="btn btn-primary btn-sm"
+                                                                                onClick={() => handleCheckCookie(c.id)}
+                                                                                title="Check cookie"
+                                                                            >
+                                                                                <span className="material-symbols-outlined">play_arrow</span>
+                                                                            </button>
+                                                                        )}
+                                                                        <button
+                                                                            className="btn btn-ghost"
+                                                                            onClick={() => handleEditCookie(c.id, c.cookie)}
+                                                                            title="Sửa cookie"
+                                                                        >
+                                                                            <span className="material-symbols-outlined">edit</span>
+                                                                        </button>
+                                                                        <button
+                                                                            className="btn btn-ghost"
+                                                                            onClick={() => handleDeleteCookie(c.id)}
+                                                                            title="Delete"
+                                                                        >
+                                                                            <span className="material-symbols-outlined">delete</span>
+                                                                        </button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        );
+                                                    })}
                                                 </tbody>
                                             </table>
                                         </div>
@@ -1013,29 +1039,50 @@ function App() {
                                             <p>Add a Shopee cookie to start tracking</p>
                                         </div>
                                     ) : (
-                                        cookies.map((c) => (
-                                            <div className="mobile-order-card" key={c.id}>
-                                                <div className="mobile-order-img">
-                                                    <span className="placeholder">🍪</span>
+                                        cookies.map((c) => {
+                                            const cookieOrders = orders.filter(o => o.cookie_id === c.id);
+                                            const firstOrder = cookieOrders[0];
+
+                                            return (
+                                                <div className="mobile-order-card" key={c.id}>
+                                                    <div className="mobile-order-img">
+                                                        {firstOrder && firstOrder.image ? (
+                                                            <img
+                                                                src={getShopeeImageUrl(firstOrder.image)}
+                                                                alt="Product"
+                                                                onError={(e) => { e.target.style.display = 'none'; }}
+                                                                className="product-img-thumbnail"
+                                                            />
+                                                        ) : (
+                                                            <span className="placeholder">📦</span>
+                                                        )}
+                                                    </div>
+                                                    <div className="mobile-order-info">
+                                                        <div className="mobile-cookie-header">
+                                                            <h4>Cookie #{c.id}</h4>
+                                                            <span className={`mobile-order-status ${c.status === 'active' ? 'in-transit' : c.status === 'pending' ? 'preparing' : 'shipped'}`}>
+                                                                {c.status}
+                                                            </span>
+                                                        </div>
+                                                        <div className="mobile-cookie-meta">
+                                                            <span className="cookie-preview-hint">{c.cookie?.substring(0, 30)}...</span>
+                                                            {cookieOrders.length > 0 && (
+                                                                <span className="mobile-order-count">({cookieOrders.length} đơn)</span>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                    {c.status === 'pending' && (
+                                                        <button
+                                                            className="btn btn-primary btn-sm mobile-cookie-check"
+                                                            onClick={() => handleCheckCookie(c.id)}
+                                                            title="Check cookie"
+                                                        >
+                                                            <span className="material-symbols-outlined">play_arrow</span>
+                                                        </button>
+                                                    )}
                                                 </div>
-                                                <div className="mobile-order-info">
-                                                    <h4>Cookie #{c.id}</h4>
-                                                    <p style={{ fontSize: '0.6rem' }}>{c.cookie?.substring(0, 25)}...</p>
-                                                </div>
-                                                {c.status === 'pending' && (
-                                                    <button
-                                                        className="btn btn-primary btn-sm"
-                                                        onClick={() => handleCheckCookie(c.id)}
-                                                        title="Check cookie"
-                                                    >
-                                                        <span className="material-symbols-outlined">play_arrow</span>
-                                                    </button>
-                                                )}
-                                                <span className={`mobile-order-status ${c.status === 'active' ? 'in-transit' : c.status === 'pending' ? 'preparing' : 'shipped'}`}>
-                                                    {c.status}
-                                                </span>
-                                            </div>
-                                        ))
+                                            );
+                                        })
                                     )}
                                 </div>
                             )}
