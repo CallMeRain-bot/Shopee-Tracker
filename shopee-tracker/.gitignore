@@ -18,6 +18,9 @@ build/
 .npm/
 *.tsbuildinfo
 .vite/
+.agent/
+.antigravity/
+.antigravityignore
 
 # Logs
 logs/

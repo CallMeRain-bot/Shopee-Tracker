@@ -2,7 +2,7 @@
 node_modules/
 
 # Agent brain
-.agent/
+# .agent/
 
 # Rác hệ thống & Data
 *.md
