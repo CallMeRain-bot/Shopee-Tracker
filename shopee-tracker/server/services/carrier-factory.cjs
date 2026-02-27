@@ -5,7 +5,7 @@
  * @module services/carrier-factory
  */
 
-const { fetchSPXStatus } = require('./spx.cjs');
+const { fetchSPXStatus, fetchSPXJourney } = require('./spx.cjs');
 const { fetchGHNStatus } = require('./ghn.cjs');
 
 /**
@@ -104,10 +104,24 @@ function isValidTrackingNumber(trackingNumber) {
     return detectCarrier(trackingNumber) !== null;
 }
 
+/**
+ * Fetch tracking journey records
+ * @param {string} trackingNumber 
+ */
+async function fetchTrackingJourney(trackingNumber) {
+    const carrier = detectCarrier(trackingNumber);
+    if (carrier === 'SPX') {
+        return await fetchSPXJourney(trackingNumber);
+    }
+    // Đối với GHN hoặc các bên khác chưa hỗ trợ full journey, trả về mảng rỗng
+    return [];
+}
+
 module.exports = {
     detectCarrier,
     getCarrierFetcher,
     fetchTrackingStatus,
+    fetchTrackingJourney,
     isValidTrackingNumber,
     getTrackingMethodCode,
     CARRIER_PATTERNS,

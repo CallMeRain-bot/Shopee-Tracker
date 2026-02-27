@@ -4,6 +4,7 @@ import { supabase, signOut, getAccessToken } from './services/supabase';
 import { decodeHTMLEntities, getShopeeImageUrl } from './utils';
 import Login from './components/Login';
 import HistoryList from './components/HistoryList';
+import TrackingModal from './components/TrackingModal';
 import './index.css';
 
 // Material Icons CDN loaded in index.html
@@ -36,6 +37,32 @@ function App() {
     // Edit delivered order state
     const [editingOrder, setEditingOrder] = useState(null);
     const [editForm, setEditForm] = useState({});
+
+    // Tracking Modal state
+    const [trackingNumberToShow, setTrackingNumberToShow] = useState(null);
+
+    // Check single order state
+    const [checkingOrderId, setCheckingOrderId] = useState(null);
+
+    const handleCheckOrder = async (orderId) => {
+        if (checkingOrderId) return;
+        setCheckingOrderId(orderId);
+        try {
+            const result = await api.checkOrder(orderId);
+            if (result.error) {
+                alert(`❌ Lỗi: ${result.error}`);
+            } else {
+                alert(result.message);
+                if (['delivered', 'cancelled', 'active'].includes(result.status)) {
+                    fetchData();
+                }
+            }
+        } catch (e) {
+            alert(`❌ Lỗi khi check: ${e.message}`);
+        } finally {
+            setCheckingOrderId(null);
+        }
+    };
 
     // Fetch data
     const fetchData = useCallback(async () => {
@@ -116,6 +143,22 @@ function App() {
             fetchData();
         } catch (e) {
             console.error('Delete error:', e);
+        }
+    };
+
+    const handleEditCookie = async (id, currentCookie) => {
+        const newCookie = prompt('Nhập cookie mới:', currentCookie || '');
+        if (!newCookie || newCookie.trim() === currentCookie) return;
+        try {
+            const result = await api.updateCookie(id, newCookie.trim());
+            if (result.error) {
+                alert(`❌ Lỗi: ${result.error}`);
+            } else {
+                alert(`✅ Cookie #${id} đã được cập nhật! Status → pending`);
+                fetchData();
+            }
+        } catch (e) {
+            alert(`❌ Lỗi khi cập nhật: ${e.message}`);
         }
     };
 
@@ -432,25 +475,29 @@ function App() {
                                                                             {decodeHTMLEntities(order.product) || 'Sản phẩm'}
                                                                             <span className="product-quantity"> (SL: {order.amount || 1})</span>
                                                                         </h4>
-                                                                        <div className="order-card-tracking">
+                                                                        <div className="order-card-tracking" onClick={() => order.tracking_number && setTrackingNumberToShow(order.tracking_number)} style={{ cursor: order.tracking_number ? 'pointer' : 'default' }}>
                                                                             <span className="tracking-code">{order.tracking_number || 'Chờ MVD'}</span>
                                                                             <button
                                                                                 className="copy-btn"
-                                                                                onClick={() => navigator.clipboard.writeText(order.tracking_number || '')}
+                                                                                onClick={(e) => {
+                                                                                    e.stopPropagation();
+                                                                                    navigator.clipboard.writeText(order.tracking_number || '');
+                                                                                }}
                                                                                 title="Copy mã vận đơn"
                                                                             >
                                                                                 <span className="material-symbols-outlined">content_copy</span>
                                                                             </button>
                                                                             {order.tracking_number && (
-                                                                                <a
-                                                                                    href={`https://tramavandon.com/spx/?tracking_number=${order.tracking_number}`}
-                                                                                    target="_blank"
-                                                                                    rel="noopener noreferrer"
+                                                                                <button
+                                                                                    onClick={(e) => {
+                                                                                        e.stopPropagation();
+                                                                                        setTrackingNumberToShow(order.tracking_number);
+                                                                                    }}
                                                                                     className="copy-btn"
-                                                                                    title="Tra cứu vận đơn"
+                                                                                    title="Xem hành trình chi tiết"
                                                                                 >
-                                                                                    <span className="material-symbols-outlined">open_in_new</span>
-                                                                                </a>
+                                                                                    <span className="material-symbols-outlined">visibility</span>
+                                                                                </button>
                                                                             )}
                                                                         </div>
                                                                     </div>
@@ -525,7 +572,7 @@ function App() {
                                                                     </div>
                                                                 )}
 
-                                                                {/* Footer: Price + Updated At */}
+                                                                {/* Footer: Price + Updated At + Check */}
                                                                 <div className="order-card-footer">
                                                                     <div className="order-card-price">
                                                                         <span className="price-label">TỔNG CỘNG</span>
@@ -533,16 +580,29 @@ function App() {
                                                                             {(order.price || 0).toLocaleString()}đ
                                                                         </span>
                                                                     </div>
-                                                                    {order.updated_at && (
-                                                                        <span className="updated-at">
-                                                                            {new Date(order.updated_at).toLocaleString('vi-VN', {
-                                                                                day: '2-digit',
-                                                                                month: '2-digit',
-                                                                                hour: '2-digit',
-                                                                                minute: '2-digit'
-                                                                            })}
-                                                                        </span>
-                                                                    )}
+                                                                    <div className="order-card-footer-right">
+                                                                        <button
+                                                                            className="order-check-btn"
+                                                                            onClick={() => handleCheckOrder(order.id)}
+                                                                            disabled={checkingOrderId === order.id}
+                                                                            title="Check trạng thái đơn hàng"
+                                                                        >
+                                                                            <span className={`material-symbols-outlined ${checkingOrderId === order.id ? 'spinning' : ''}`}>
+                                                                                {checkingOrderId === order.id ? 'sync' : 'fact_check'}
+                                                                            </span>
+                                                                            {checkingOrderId === order.id ? 'Checking...' : 'Check'}
+                                                                        </button>
+                                                                        {order.updated_at && (
+                                                                            <span className="updated-at">
+                                                                                {new Date(order.updated_at).toLocaleString('vi-VN', {
+                                                                                    day: '2-digit',
+                                                                                    month: '2-digit',
+                                                                                    hour: '2-digit',
+                                                                                    minute: '2-digit'
+                                                                                })}
+                                                                            </span>
+                                                                        )}
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         ))}
@@ -618,6 +678,13 @@ function App() {
                                                                     )}
                                                                     <button
                                                                         className="btn btn-ghost"
+                                                                        onClick={() => handleEditCookie(c.id, c.cookie)}
+                                                                        title="Sửa cookie"
+                                                                    >
+                                                                        <span className="material-symbols-outlined">edit</span>
+                                                                    </button>
+                                                                    <button
+                                                                        className="btn btn-ghost"
                                                                         onClick={() => handleDeleteCookie(c.id)}
                                                                         title="Delete"
                                                                     >
@@ -656,9 +723,41 @@ function App() {
                         </div>
                         <h1>Shopee Tracker</h1>
                     </div>
-                    <div className={`mobile-cookie-badge ${stats.active > 0 ? 'active' : 'inactive'}`}>
-                        <span className="dot"></span>
-                        <span>Cookie: {stats.active > 0 ? 'Active' : 'Inactive'}</span>
+                    <div className="mobile-header-right">
+                        <div className="mobile-force-check">
+                            <button
+                                className="mobile-force-check-btn"
+                                onClick={() => setShowForceCheckMenu(!showForceCheckMenu)}
+                                disabled={forceCheckLoading}
+                                title="Force Check"
+                            >
+                                <span className={`material-symbols-outlined ${forceCheckLoading ? 'spinning' : ''}`}>
+                                    {forceCheckLoading ? 'sync' : 'refresh'}
+                                </span>
+                            </button>
+                            {showForceCheckMenu && !forceCheckLoading && (
+                                <div className="mobile-force-check-menu">
+                                    <button onClick={() => handleForceCheck('normal')}>
+                                        <span className="material-symbols-outlined">schedule</span>
+                                        <div>
+                                            <span>Normal Check</span>
+                                            <small>Chỉ check đơn chờ MVD</small>
+                                        </div>
+                                    </button>
+                                    <button onClick={() => handleForceCheck('all')}>
+                                        <span className="material-symbols-outlined">fact_check</span>
+                                        <div>
+                                            <span>Check All</span>
+                                            <small>Check tất cả đơn + cookie khoá</small>
+                                        </div>
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+                        <div className={`mobile-cookie-badge ${stats.active > 0 ? 'active' : 'inactive'}`}>
+                            <span className="dot"></span>
+                            <span>Cookie: {stats.active > 0 ? 'Active' : 'Inactive'}</span>
+                        </div>
                     </div>
                 </header>
 
@@ -795,7 +894,29 @@ function App() {
                                                             {decodeHTMLEntities(order.product) || 'Sản phẩm'}
                                                             <span className="product-quantity"> (SL: {order.amount || 1})</span>
                                                         </h4>
-                                                        <p className="tracking-num">#{order.tracking_number || 'Chờ MVD'}</p>
+                                                        <div className="mobile-tracking-row">
+                                                            <span className="tracking-num" onClick={() => order.tracking_number && setTrackingNumberToShow(order.tracking_number)} style={{ cursor: order.tracking_number ? 'pointer' : 'default' }}>
+                                                                #{order.tracking_number || 'Chờ MVD'}
+                                                            </span>
+                                                            {order.tracking_number && (
+                                                                <div className="mobile-tracking-actions">
+                                                                    <button
+                                                                        className="mobile-track-btn"
+                                                                        onClick={() => navigator.clipboard.writeText(order.tracking_number)}
+                                                                        title="Copy mã vận đơn"
+                                                                    >
+                                                                        <span className="material-symbols-outlined">content_copy</span>
+                                                                    </button>
+                                                                    <button
+                                                                        className="mobile-track-btn"
+                                                                        onClick={() => setTrackingNumberToShow(order.tracking_number)}
+                                                                        title="Xem hành trình"
+                                                                    >
+                                                                        <span className="material-symbols-outlined">visibility</span>
+                                                                    </button>
+                                                                </div>
+                                                            )}
+                                                        </div>
                                                     </div>
                                                 </div>
 
@@ -855,10 +976,23 @@ function App() {
                                                     )}
                                                 </div>
 
-                                                {/* Footer: Price */}
+                                                {/* Footer: Price + Check */}
                                                 <div className="mobile-order-footer">
-                                                    <span className="mobile-price-label">TỔNG CỘNG</span>
-                                                    <span className="mobile-price-value">{(order.price || 0).toLocaleString()}đ</span>
+                                                    <div>
+                                                        <span className="mobile-price-label">TỔNG CỘNG</span>
+                                                        <span className="mobile-price-value">{(order.price || 0).toLocaleString()}đ</span>
+                                                    </div>
+                                                    <button
+                                                        className="mobile-order-check-btn"
+                                                        onClick={() => handleCheckOrder(order.id)}
+                                                        disabled={checkingOrderId === order.id}
+                                                        title="Check trạng thái"
+                                                    >
+                                                        <span className={`material-symbols-outlined ${checkingOrderId === order.id ? 'spinning' : ''}`}>
+                                                            {checkingOrderId === order.id ? 'sync' : 'fact_check'}
+                                                        </span>
+                                                        <span>{checkingOrderId === order.id ? 'Checking...' : 'Check'}</span>
+                                                    </button>
                                                 </div>
                                             </div>
                                         ))
@@ -1072,6 +1206,14 @@ function App() {
                         </div>
                     </div>
                 </div>
+            )}
+
+            {/* Tracking Journey Modal */}
+            {trackingNumberToShow && (
+                <TrackingModal
+                    trackingNumber={trackingNumberToShow}
+                    onClose={() => setTrackingNumberToShow(null)}
+                />
             )}
         </div>
     );

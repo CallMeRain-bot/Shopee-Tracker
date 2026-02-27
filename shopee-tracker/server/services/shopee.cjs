@@ -85,15 +85,15 @@ async function fetchOrdersBatch(cookies) {
 function parseHtmlResponse(html) {
     const results = [];
 
-    if (html.includes('Cookie die') || html.includes('hết hạn')) {
-        console.log(`[${ts()}] [NganMiu API] ❌ Có cookie hết hạn (Cookie die)`);
-        throw new Error('COOKIE_EXPIRED_ERROR_19');
-    }
-
     console.log(`[${ts()}] [NganMiu API] Đang quét HTML (Mobile Cards)...`);
 
-    // Tách từng khối mobile-order-card (split thay vì regex global để tránh bị hụt thẻ div)
-    const cardBlocks = html.split(/<div[^>]*class=['"]mobile-order-card/gi).slice(1);
+    const cardBlocks = html.split(/\<div[^>]*class=['"]mobile-order-card/gi).slice(1);
+
+    // Cookie expired/locked: API trả về HTML nhưng không có order card nào
+    if (cardBlocks.length === 0) {
+        console.log(`[${ts()}] [NganMiu API] ❌ Không tìm thấy đơn hàng nào → Cookie hết hạn hoặc bị khoá`);
+        throw new Error('COOKIE_EXPIRED_ERROR_19');
+    }
 
     for (let cardBody of cardBlocks) {
         try {
@@ -140,7 +140,7 @@ function parseHtmlResponse(html) {
 
             const statusLower = order.status.toLowerCase();
             order.is_completed = statusLower.includes('thành công') || statusLower.includes('đã giao') || statusLower.includes('hoàn tất');
-            order.is_cancelled = statusLower.includes('đã hủy') || statusLower.includes('huỷ');
+            order.is_cancelled = statusLower.includes('đơn hàng bị huỷ') || statusLower.includes('đã hủy') || statusLower.includes('huỷ');
 
             results.push(order);
         } catch (e) {

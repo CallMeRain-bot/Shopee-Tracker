@@ -70,7 +70,8 @@ async function fetchSPXStatus(trackingNumber) {
             isPreparing: latestRecord.milestone_code === 1,
             isReturned: false, // SPX không có return status rõ ràng
 
-            rawRecordsCount: records.length
+            rawRecordsCount: records.length,
+            records: records // 🔥 Trả về luôn full records
         };
 
     } catch (error) {
@@ -84,4 +85,33 @@ async function fetchSPXStatus(trackingNumber) {
     }
 }
 
-module.exports = { fetchSPXStatus };
+/**
+ * Fetch full tracking records from SPX API
+ * @param {string} trackingNumber 
+ */
+async function fetchSPXJourney(trackingNumber) {
+    try {
+        const { data } = await axios.post(
+            SPX_API_URL,
+            { tracking_id: trackingNumber },
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                },
+                timeout: 15000
+            }
+        );
+
+        if (data.message !== 'success' || !data.data?.sls_tracking_info?.records) {
+            return [];
+        }
+
+        return data.data.sls_tracking_info.records;
+    } catch (error) {
+        console.error(`[SPX Journey] ❌ Lỗi ${trackingNumber}: ${error.message}`);
+        return [];
+    }
+}
+
+module.exports = { fetchSPXStatus, fetchSPXJourney };

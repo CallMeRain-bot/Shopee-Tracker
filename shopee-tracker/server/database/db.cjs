@@ -82,6 +82,9 @@ module.exports = {
     updateCookie: async (id, updates) => {
         const payload = {};
         if (updates.status) payload.status = updates.status;
+        if (updates.cookie) {
+            payload.data_encrypted = encrypt({ cookie: updates.cookie });
+        }
 
         const { error } = await supabase.from('cookies').update(payload).eq('id', id);
         if (error) console.error("DB Error updateCookie:", error);
@@ -493,5 +496,38 @@ module.exports = {
             disabled: disabled.count || 0,
             delivered: delivered.count || 0
         };
+    },
+
+    // --- ORDER TRACKING JOURNEY ---
+    getTrackingJourney: async (trackingNumber) => {
+        const { data, error } = await supabase
+            .from('order_tracking')
+            .select('*')
+            .eq('tracking_number', trackingNumber)
+            .single();
+
+        if (error || !data) return null;
+        return data;
+    },
+
+    setTrackingJourney: async (trackingNumber, records) => {
+        const { error } = await supabase
+            .from('order_tracking')
+            .upsert({
+                tracking_number: trackingNumber,
+                records: records,
+                last_fetched: new Date()
+            }, { onConflict: 'tracking_number' });
+
+        if (error) console.error("DB Error setTrackingJourney:", error);
+    },
+
+    deleteTrackingJourney: async (trackingNumber) => {
+        const { error } = await supabase
+            .from('order_tracking')
+            .delete()
+            .eq('tracking_number', trackingNumber);
+
+        if (error) console.error("DB Error deleteTrackingJourney:", error);
     }
 };

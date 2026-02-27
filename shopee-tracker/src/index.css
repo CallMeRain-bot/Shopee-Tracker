@@ -1233,6 +1233,123 @@ body {
   color: var(--text-primary);
 }
 
+.mobile-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mobile-force-check {
+  position: relative;
+}
+
+.mobile-force-check-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border-dark);
+  border-radius: 10px;
+  background: var(--surface-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.mobile-force-check-btn .material-symbols-outlined {
+  font-size: 18px;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.mobile-force-check-btn:hover,
+.mobile-force-check-btn:active {
+  border-color: rgba(238, 75, 43, 0.4);
+  background: rgba(238, 75, 43, 0.08);
+}
+
+.mobile-force-check-btn:hover .material-symbols-outlined,
+.mobile-force-check-btn:active .material-symbols-outlined {
+  color: var(--primary);
+}
+
+.mobile-force-check-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mobile-force-check-btn .spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mobile-force-check-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 220px;
+  background: var(--surface-dark);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  padding: 0.35rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  animation: slideUpFluid 0.2s ease-out;
+}
+
+.mobile-force-check-menu button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  text-align: left;
+}
+
+.mobile-force-check-menu button:hover,
+.mobile-force-check-menu button:active {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.mobile-force-check-menu button .material-symbols-outlined {
+  font-size: 18px;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.mobile-force-check-menu button div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.mobile-force-check-menu button span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.mobile-force-check-menu button small {
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
 .mobile-cookie-badge {
   display: flex;
   align-items: center;
@@ -1690,6 +1807,52 @@ body {
   color: var(--primary);
   font-family: monospace;
   font-weight: 600;
+}
+
+.mobile-tracking-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.15rem;
+}
+
+.mobile-tracking-actions {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.mobile-track-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--border-dark);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.mobile-track-btn .material-symbols-outlined {
+  font-size: 14px;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.mobile-track-btn:hover {
+  background: rgba(238, 75, 43, 0.1);
+  border-color: rgba(238, 75, 43, 0.3);
+}
+
+.mobile-track-btn:hover .material-symbols-outlined {
+  color: var(--primary);
+}
+
+.mobile-track-btn:active {
+  transform: scale(0.9);
 }
 
 /* Status badge - full width dưới cùng */
@@ -2392,6 +2555,83 @@ body {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--primary);
+}
+
+.order-card-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+
+.order-check-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--border-dark);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.order-check-btn .material-symbols-outlined {
+  font-size: 14px;
+}
+
+.order-check-btn:hover:not(:disabled) {
+  background: rgba(238, 75, 43, 0.1);
+  border-color: rgba(238, 75, 43, 0.3);
+  color: var(--primary);
+}
+
+.order-check-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.order-check-btn .spinning {
+  animation: spin 1s linear infinite;
+}
+
+.mobile-order-check-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--border-dark);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.mobile-order-check-btn .material-symbols-outlined {
+  font-size: 14px;
+}
+
+.mobile-order-check-btn:hover:not(:disabled),
+.mobile-order-check-btn:active:not(:disabled) {
+  background: rgba(238, 75, 43, 0.1);
+  border-color: rgba(238, 75, 43, 0.3);
+  color: var(--primary);
+}
+
+.mobile-order-check-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mobile-order-check-btn .spinning {
+  animation: spin 1s linear infinite;
 }
 
 /* Responsive adjustments for Order Cards */

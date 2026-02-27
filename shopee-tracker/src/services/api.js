@@ -75,6 +75,14 @@ export const api = {
         return res.json();
     },
 
+    updateCookie: async (id, cookie) => {
+        const res = await authFetch(`${API_BASE}/cookies/${id}`, {
+            method: 'PATCH',
+            body: JSON.stringify({ cookie })
+        });
+        return res.json();
+    },
+
     // Orders
     getActiveOrders: async () => {
         const res = await authFetch(`${API_BASE}/orders/active`);
@@ -113,6 +121,18 @@ export const api = {
     // mode: 'all' - check tất cả orders để phát hiện đơn huỷ/cookie khoá
     forceCheck: async (mode = 'normal') => {
         const res = await authFetch(`${API_BASE}/orders/force-check?mode=${mode}`, { method: 'POST' });
+        return res.json();
+    },
+
+    checkOrder: async (orderId) => {
+        const res = await authFetch(`${API_BASE}/orders/${encodeURIComponent(orderId)}/check`, { method: 'POST' });
+        return res.json();
+    },
+
+    getTracking: async (trackingNumber) => {
+        if (!trackingNumber) return null;
+        const res = await authFetch(`${API_BASE}/orders/tracking/${trackingNumber}`);
+        if (res.status === 404) return null;
         return res.json();
     },
 

@@ -1,5 +1,5 @@
 const { fetchOrders, fetchOrdersBatch } = require('../services/shopee.cjs');
-const { detectCarrier, fetchTrackingStatus, getTrackingMethodCode, TRACKING_METHOD } = require('../services/carrier-factory.cjs');
+const { detectCarrier, fetchTrackingStatus, fetchTrackingJourney, getTrackingMethodCode, TRACKING_METHOD } = require('../services/carrier-factory.cjs');
 const db = require('../database/db.cjs');
 const { sendDeliveredWebhook } = require('../services/webhook.cjs');
 
@@ -139,6 +139,11 @@ async function checkExternalTracking() {
                     next_location: statusData.nextLocation || statusData.next_location
                 }, order.cookie_id);
 
+                // 🔥 CẬP NHẬT FULL HÀNH TRÌNH (Sử dụng dữ liệu từ statusData vừa fetch xong)
+                if (statusData.records && statusData.records.length > 0) {
+                    await db.setTrackingJourney(order.tracking_number, statusData.records);
+                }
+
                 if (isCompleted) {
                     log('External', `      ✅ Thành công: Đã giao hàng!`);
 
@@ -159,6 +164,11 @@ async function checkExternalTracking() {
                     });
                     await db.deleteCache(order.order_id || order.id);
                     await db.checkAndDeleteCookieIfEmpty(order.cookie_id);
+
+                    // 🔥 XOÁ HÀNH TRÌNH SAU KHI GIAO THÀNH CÔNG (Theo ý onichan)
+                    if (order.tracking_number) {
+                        await db.deleteTrackingJourney(order.tracking_number);
+                    }
 
                     results.delivered++;
                     emitEvent('order_completed', { orderId: order.order_id || order.id, trackingNumber: order.tracking_number, deliveredVia: 'external_api' });

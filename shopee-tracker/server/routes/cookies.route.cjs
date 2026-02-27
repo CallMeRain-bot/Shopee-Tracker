@@ -77,14 +77,29 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-// PATCH update cookie status
+// PATCH update cookie (status and/or cookie content)
 router.patch('/:id', async (req, res) => {
     try {
-        const { status } = req.body;
-        if (!status) return res.status(400).json({ error: 'Status is required' });
+        const { status, cookie } = req.body;
+        const updates = {};
 
-        await db.updateCookie(parseInt(req.params.id), { status });
-        res.json({ success: true });
+        if (status) updates.status = status;
+
+        if (cookie) {
+            const validation = validateCookieInput(cookie);
+            if (!validation.valid) {
+                return res.status(400).json({ error: validation.error });
+            }
+            updates.cookie = validation.value;
+            updates.status = 'pending';
+        }
+
+        if (Object.keys(updates).length === 0) {
+            return res.status(400).json({ error: 'No update fields provided' });
+        }
+
+        await db.updateCookie(parseInt(req.params.id), updates);
+        res.json({ success: true, status: updates.status || 'unchanged' });
     } catch (e) {
         res.status(500).json({ error: e.message });
     }
