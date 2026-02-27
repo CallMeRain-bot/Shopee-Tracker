@@ -71,3 +71,12 @@ server/data/*.json
 __tests__/
 *.test.js
 *.spec.js
+# Deployment scripts
+deploy.sh
+deploy_vps.bat
+
+# Debug/Temp files
+debug_api.cjs
+debug_response.html
+result.json
+response.html
