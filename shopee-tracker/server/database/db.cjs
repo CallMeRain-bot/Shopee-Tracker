@@ -519,7 +519,11 @@ module.exports = {
                 last_fetched: new Date()
             }, { onConflict: 'tracking_number' });
 
-        if (error) console.error("DB Error setTrackingJourney:", error);
+        if (error) {
+            console.error(`[DB] ❌ setTrackingJourney FAILED for ${trackingNumber}:`, error.message, error.details || '');
+        } else {
+            console.log(`[DB] ✅ setTrackingJourney OK: ${trackingNumber} (${records.length} records)`);
+        }
     },
 
     deleteTrackingJourney: async (trackingNumber) => {

@@ -141,6 +141,7 @@ async function checkExternalTracking() {
 
                 // 🔥 CẬP NHẬT FULL HÀNH TRÌNH (Sử dụng dữ liệu từ statusData vừa fetch xong)
                 if (statusData.records && statusData.records.length > 0) {
+                    console.log(`[External] 🗺️ Lưu hành trình ${order.tracking_number}: ${statusData.records.length} records → Supabase...`);
                     await db.setTrackingJourney(order.tracking_number, statusData.records);
                 }
 
